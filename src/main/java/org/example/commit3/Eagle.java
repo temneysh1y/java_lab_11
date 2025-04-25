@@ -13,7 +13,7 @@ public class Eagle extends Bird implements Flyable, Predator {
         System.out.println(name + " летит со скоростью 80 км/ч.");
     }
 
-   
+
     public void hunt() {
         System.out.println(name + " охотится.");
     }
